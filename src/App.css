@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: "Open Sans", serif;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/zima-les-sneg-derevia-vetki.jpg);
+    background-size: cover;
+  
+}
+.main{
+    height: 55vh;
+    background:#dcdfe4;
+    opacity: 0.7;
+    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0,5);
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+.info{
+    font-size: 13px;
+    text-align: center;
+    color:rgb(20, 18, 18);
+}
+.form{
+    font-size: 20px;
+    padding-top: 120px;
+    padding-left:260px;
+}
+input[type="text"]{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    width: 50%;
+    padding-bottom: 4px;
+    color: rgb(29, 26, 26);
+}
+input::-moz-placeholder{
+    color: rgb(37, 35, 35)00;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+button{
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+    padding: 2px 15px;
+    margin: 0 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(65, 60, 60);
+    color: rgb(233, 227, 227);
+    outline: none!important;
+}
+button:hover{
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 2px;
+}
+button:active{
+    border-bottom: 2px solid black;
+    position: relative;
+    border-color: transparent;
+    top: 2px;
+}
+.info h2{
+    font-size: 35px;
+    color: black;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+.info p{
+padding-left: 10px;
+padding-top: 10px;
+font-size: 15px;
+text-align: left;
+}
+.infoWeath{
+    width: 60%;
+    font-size: 15px;
+    color: black;
+}
+.error{
+    color: rgb(29, 10, 10);
+    font-weight: bold;
+}
